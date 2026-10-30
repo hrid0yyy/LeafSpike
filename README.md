@@ -3,7 +3,7 @@
 Code, data split and per-image predictions for the paper
 
 > **Train as you deploy: time-aligned attention closes the train–deploy gap of spike-driven vision transformers, with an edge plant-disease case study**
-> S. M. Mahbub Uddin Ahmed (United International University). Manuscript submitted to *Neurocomputing*.
+> S. M. Mahbub Uddin Ahmed. Manuscript in preparation.
 
 Spike-driven transformers such as E-SpikeFormer (SDT-v3) are trained with integer spike counts and deployed as binary
 spikes over $D$ virtual time steps. This is exact for convolutions, but not for self-attention, which multiplies spike
