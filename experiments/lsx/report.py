@@ -252,7 +252,7 @@ def write_report(cfg, jobs, out_dir=None):
                 labels.append(T1_LABELS[m])
             if key_model and m in ('deit_s', 'swin_t'):
                 # DeiT-S and Swin-T nearly coincide; separate the labels with short leader lines.
-                off = (-62, 14) if m == 'deit_s' else (-62, -16)
+                off = (-44, 12) if m == 'deit_s' else (-44, -14)
                 ax.annotate(T1_LABELS[m], (x, y), fontsize=6.5, color=color,
                             xytext=off, textcoords='offset points', ha='right', va='center',
                             arrowprops=dict(arrowstyle='-', lw=0.6, color=color,
