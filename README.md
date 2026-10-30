@@ -122,7 +122,8 @@ after reboots; see the comments at the top of that script.
 * Spike quantisation makes predictions sensitive to tiny numerical differences: batch size 1 instead of 64 changes
   4–6 test predictions of LeafSpike-S and 12–14 of LeafSpike-S-sparse (`results/stability.md`).
 * Training itself is not bit-reproducible (fp16 mixed precision, data-loader workers).
-* Trained checkpoints are not included in this repository because of their size.
+* Trained checkpoints are not included in this repository because of their size; they are available from the
+  author on reasonable request.
 
 ## Citation
 
