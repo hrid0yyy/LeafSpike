@@ -1,0 +1,19 @@
+# local configuration and outputs
+experiments/config.json
+experiments/windows/local_env.bat
+paper/
+figures/*.pdf
+figures/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# data, checkpoints and run folders (never committed)
+data/
+checkpoints/
+*.pth
+*.pt
+runs_smoke/

@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy to config.json (setup.ps1 writes one). Any key from DEFAULTS in run_all.py can be set here.",
+  "root": "C:\\Users\\YOU\\leafspike",
+  "num_workers": 4,
+  "batch_size": 64,
+  "field_root": null,
+  "epochs": 60,
+  "seeds": [42, 43, 44]
+}

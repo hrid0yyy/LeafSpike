@@ -1,0 +1,1120 @@
+{
+  "job": {
+    "name": "leafspike_no_maxshort",
+    "kind": "snn",
+    "D": 4,
+    "attn_mode": "aligned",
+    "maxpool_shortcut": false,
+    "id": "leafspike_no_maxshort_s44",
+    "seed": 44,
+    "epochs": 60,
+    "phase": "D"
+  },
+  "pretrained": true,
+  "batch_size": 64,
+  "accum": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 2.1604543717780915,
+      "val_acc": 0.46141975308641975,
+      "val_f1": 0.22524996908964293,
+      "sec": 87.66713213920593
+    },
+    {
+      "epoch": 2,
+      "loss": 1.6588709926841283,
+      "val_acc": 0.7897376543209876,
+      "val_f1": 0.6210764808171283,
+      "sec": 63.16351342201233
+    },
+    {
+      "epoch": 3,
+      "loss": 1.2723633381399777,
+      "val_acc": 0.9116512345679012,
+      "val_f1": 0.8758640617796937,
+      "sec": 63.36647582054138
+    },
+    {
+      "epoch": 4,
+      "loss": 1.1149945229586988,
+      "val_acc": 0.9560185185185185,
+      "val_f1": 0.9405307732186378,
+      "sec": 63.45597243309021
+    },
+    {
+      "epoch": 5,
+      "loss": 1.0545040345428014,
+      "val_acc": 0.9564043209876543,
+      "val_f1": 0.947737561287834,
+      "sec": 63.330544233322144
+    },
+    {
+      "epoch": 6,
+      "loss": 1.0193571333247837,
+      "val_acc": 0.9583333333333334,
+      "val_f1": 0.9484065526735355,
+      "sec": 63.38393211364746
+    },
+    {
+      "epoch": 7,
+      "loss": 0.9805206379087845,
+      "val_acc": 0.96875,
+      "val_f1": 0.9601389791876072,
+      "sec": 63.3683340549469
+    },
+    {
+      "epoch": 8,
+      "loss": 0.9773610030660534,
+      "val_acc": 0.972608024691358,
+      "val_f1": 0.9681563730937721,
+      "sec": 63.28079915046692
+    },
+    {
+      "epoch": 9,
+      "loss": 0.9251248104737537,
+      "val_acc": 0.9768518518518519,
+      "val_f1": 0.9727529825448968,
+      "sec": 63.360395193099976
+    },
+    {
+      "epoch": 10,
+      "loss": 0.894290708964414,
+      "val_acc": 0.9822530864197531,
+      "val_f1": 0.9783581982774591,
+      "sec": 63.39096403121948
+    },
+    {
+      "epoch": 11,
+      "loss": 0.9052969707120763,
+      "val_acc": 0.9845679012345679,
+      "val_f1": 0.9823450728070096,
+      "sec": 63.243377923965454
+    },
+    {
+      "epoch": 12,
+      "loss": 0.9102993150158684,
+      "val_acc": 0.9714506172839507,
+      "val_f1": 0.9659040004338186,
+      "sec": 63.20677876472473
+    },
+    {
+      "epoch": 13,
+      "loss": 0.902239454264688,
+      "val_acc": 0.9810956790123457,
+      "val_f1": 0.973717523132265,
+      "sec": 63.21640229225159
+    },
+    {
+      "epoch": 14,
+      "loss": 0.8460891954969652,
+      "val_acc": 0.9826388888888888,
+      "val_f1": 0.9807108776467455,
+      "sec": 63.289511919021606
+    },
+    {
+      "epoch": 15,
+      "loss": 0.8678759348274457,
+      "val_acc": 0.9880401234567902,
+      "val_f1": 0.9860674387367476,
+      "sec": 63.21835780143738
+    },
+    {
+      "epoch": 16,
+      "loss": 0.9066444024591163,
+      "val_acc": 0.9888117283950617,
+      "val_f1": 0.9873151738339849,
+      "sec": 63.365840673446655
+    },
+    {
+      "epoch": 17,
+      "loss": 0.8542590040971737,
+      "val_acc": 0.9876543209876543,
+      "val_f1": 0.9862108993945418,
+      "sec": 63.33306002616882
+    },
+    {
+      "epoch": 18,
+      "loss": 0.8503841120417756,
+      "val_acc": 0.9872685185185185,
+      "val_f1": 0.9847644911203165,
+      "sec": 63.33354353904724
+    },
+    {
+      "epoch": 19,
+      "loss": 0.8238190548254711,
+      "val_acc": 0.9884259259259259,
+      "val_f1": 0.9866186793322118,
+      "sec": 63.26920175552368
+    },
+    {
+      "epoch": 20,
+      "loss": 0.8480203302189855,
+      "val_acc": 0.9872685185185185,
+      "val_f1": 0.9859096283312677,
+      "sec": 63.24937176704407
+    },
+    {
+      "epoch": 21,
+      "loss": 0.8458246349698246,
+      "val_acc": 0.9899691358024691,
+      "val_f1": 0.9880852780879991,
+      "sec": 63.33062720298767
+    },
+    {
+      "epoch": 22,
+      "loss": 0.8430103361606598,
+      "val_acc": 0.9911265432098766,
+      "val_f1": 0.9897329667256839,
+      "sec": 63.376768589019775
+    },
+    {
+      "epoch": 23,
+      "loss": 0.8171513862539046,
+      "val_acc": 0.9903549382716049,
+      "val_f1": 0.9884891964847631,
+      "sec": 63.315608978271484
+    },
+    {
+      "epoch": 24,
+      "loss": 0.8487450049655272,
+      "val_acc": 0.9895833333333334,
+      "val_f1": 0.9876263464964194,
+      "sec": 63.38582158088684
+    },
+    {
+      "epoch": 25,
+      "loss": 0.8620811600496273,
+      "val_acc": 0.9930555555555556,
+      "val_f1": 0.9926783371042074,
+      "sec": 63.31834697723389
+    },
+    {
+      "epoch": 26,
+      "loss": 0.8413080844548669,
+      "val_acc": 0.9934413580246914,
+      "val_f1": 0.9911836726331398,
+      "sec": 63.38322401046753
+    },
+    {
+      "epoch": 27,
+      "loss": 0.7978320390281111,
+      "val_acc": 0.9934413580246914,
+      "val_f1": 0.9926515369609941,
+      "sec": 63.25729203224182
+    },
+    {
+      "epoch": 28,
+      "loss": 0.8508998825408445,
+      "val_acc": 0.9918981481481481,
+      "val_f1": 0.9902998221571744,
+      "sec": 63.33918523788452
+    },
+    {
+      "epoch": 29,
+      "loss": 0.8129719383645766,
+      "val_acc": 0.9930555555555556,
+      "val_f1": 0.9908750556213839,
+      "sec": 63.36475324630737
+    },
+    {
+      "epoch": 30,
+      "loss": 0.8448558393681403,
+      "val_acc": 0.9922839506172839,
+      "val_f1": 0.9904789660898293,
+      "sec": 63.32526254653931
+    },
+    {
+      "epoch": 31,
+      "loss": 0.8814634521408836,
+      "val_acc": 0.9934413580246914,
+      "val_f1": 0.9916638209208541,
+      "sec": 63.28675699234009
+    },
+    {
+      "epoch": 32,
+      "loss": 0.7930491162408696,
+      "val_acc": 0.9926697530864198,
+      "val_f1": 0.9915372717859977,
+      "sec": 63.30627489089966
+    },
+    {
+      "epoch": 33,
+      "loss": 0.8452735127198814,
+      "val_acc": 0.9922839506172839,
+      "val_f1": 0.9911704049773642,
+      "sec": 63.3641619682312
+    },
+    {
+      "epoch": 34,
+      "loss": 0.8069557671499724,
+      "val_acc": 0.9938271604938271,
+      "val_f1": 0.9934796443994303,
+      "sec": 63.29991269111633
+    },
+    {
+      "epoch": 35,
+      "loss": 0.8371189702855478,
+      "val_acc": 0.9926697530864198,
+      "val_f1": 0.9923389259467946,
+      "sec": 63.28305506706238
+    },
+    {
+      "epoch": 36,
+      "loss": 0.8092371228307781,
+      "val_acc": 0.9957561728395061,
+      "val_f1": 0.9949512238322711,
+      "sec": 63.29653477668762
+    },
+    {
+      "epoch": 37,
+      "loss": 0.8094614785496551,
+      "val_acc": 0.9949845679012346,
+      "val_f1": 0.9938807053653141,
+      "sec": 63.25094985961914
+    },
+    {
+      "epoch": 38,
+      "loss": 0.7902330688320764,
+      "val_acc": 0.9945987654320988,
+      "val_f1": 0.9939446502450323,
+      "sec": 63.403470039367676
+    },
+    {
+      "epoch": 39,
+      "loss": 0.8359661205570297,
+      "val_acc": 0.998070987654321,
+      "val_f1": 0.997728667375706,
+      "sec": 63.263258934020996
+    },
+    {
+      "epoch": 40,
+      "loss": 0.8283781707286835,
+      "val_acc": 0.9945987654320988,
+      "val_f1": 0.9932308843902862,
+      "sec": 63.3732705116272
+    },
+    {
+      "epoch": 41,
+      "loss": 0.7955747774922022,
+      "val_acc": 0.9972993827160493,
+      "val_f1": 0.9967838452137121,
+      "sec": 63.315139055252075
+    },
+    {
+      "epoch": 42,
+      "loss": 0.7703349944388512,
+      "val_acc": 0.9945987654320988,
+      "val_f1": 0.9939346715877215,
+      "sec": 63.29989504814148
+    },
+    {
+      "epoch": 43,
+      "loss": 0.7955446989819555,
+      "val_acc": 0.9953703703703703,
+      "val_f1": 0.9945363937534811,
+      "sec": 63.220688581466675
+    },
+    {
+      "epoch": 44,
+      "loss": 0.7421557094791148,
+      "val_acc": 0.9942129629629629,
+      "val_f1": 0.9936578268078629,
+      "sec": 63.28668141365051
+    },
+    {
+      "epoch": 45,
+      "loss": 0.7750982645124492,
+      "val_acc": 0.9949845679012346,
+      "val_f1": 0.9935648538511946,
+      "sec": 63.38516306877136
+    },
+    {
+      "epoch": 46,
+      "loss": 0.7924785023868675,
+      "val_acc": 0.9957561728395061,
+      "val_f1": 0.9945602548518704,
+      "sec": 63.2857723236084
+    },
+    {
+      "epoch": 47,
+      "loss": 0.7799994715369574,
+      "val_acc": 0.9949845679012346,
+      "val_f1": 0.9938485146154135,
+      "sec": 63.365370750427246
+    },
+    {
+      "epoch": 48,
+      "loss": 0.8098711955665362,
+      "val_acc": 0.9953703703703703,
+      "val_f1": 0.994537063895339,
+      "sec": 63.31869101524353
+    },
+    {
+      "epoch": 49,
+      "loss": 0.7932876581602758,
+      "val_acc": 0.996141975308642,
+      "val_f1": 0.9959612797411881,
+      "sec": 63.39732050895691
+    },
+    {
+      "epoch": 50,
+      "loss": 0.7876388277157699,
+      "val_acc": 0.9965277777777778,
+      "val_f1": 0.996403356027707,
+      "sec": 63.381062507629395
+    },
+    {
+      "epoch": 51,
+      "loss": 0.8095772986364836,
+      "val_acc": 0.9969135802469136,
+      "val_f1": 0.9954009934372954,
+      "sec": 63.28991770744324
+    },
+    {
+      "epoch": 52,
+      "loss": 0.8338933826083004,
+      "val_acc": 0.996141975308642,
+      "val_f1": 0.9955045475718232,
+      "sec": 63.38131642341614
+    },
+    {
+      "epoch": 53,
+      "loss": 0.8204096127854715,
+      "val_acc": 0.9969135802469136,
+      "val_f1": 0.9965495281543015,
+      "sec": 63.437262535095215
+    },
+    {
+      "epoch": 54,
+      "loss": 0.8009048334442743,
+      "val_acc": 0.9945987654320988,
+      "val_f1": 0.9929697240161479,
+      "sec": 63.51751947402954
+    },
+    {
+      "epoch": 55,
+      "loss": 0.7916280612497046,
+      "val_acc": 0.9965277777777778,
+      "val_f1": 0.9959078346345847,
+      "sec": 63.40947723388672
+    },
+    {
+      "epoch": 56,
+      "loss": 0.77462103225217,
+      "val_acc": 0.9969135802469136,
+      "val_f1": 0.9963646429949506,
+      "sec": 63.3025906085968
+    },
+    {
+      "epoch": 57,
+      "loss": 0.8086636231677367,
+      "val_acc": 0.9969135802469136,
+      "val_f1": 0.9962386872150418,
+      "sec": 63.55783820152283
+    },
+    {
+      "epoch": 58,
+      "loss": 0.7888885447294405,
+      "val_acc": 0.9957561728395061,
+      "val_f1": 0.995191756980649,
+      "sec": 63.41520428657532
+    },
+    {
+      "epoch": 59,
+      "loss": 0.7565143232298369,
+      "val_acc": 0.9972993827160493,
+      "val_f1": 0.9967182935273817,
+      "sec": 63.4251012802124
+    },
+    {
+      "epoch": 60,
+      "loss": 0.7742754752093023,
+      "val_acc": 0.9972993827160493,
+      "val_f1": 0.9974340663933475,
+      "sec": 63.40681052207947
+    }
+  ],
+  "best_val_f1": 0.997728667375706,
+  "lab_test": {
+    "n": 2593,
+    "acc": 0.9973004242190513,
+    "macro_f1": 0.996961057939189,
+    "per_class_recall": {
+      "bacterial_spot": 0.9967105263157895,
+      "early_blight": 0.986013986013986,
+      "late_blight": 1.0,
+      "leaf_mold": 0.9852941176470589,
+      "septoria_leaf_spot": 1.0,
+      "spider_mites": 1.0,
+      "target_spot": 1.0,
+      "yellow_leaf_curl_virus": 0.9973890339425587,
+      "mosaic_virus": 1.0,
+      "healthy": 1.0
+    }
+  },
+  "lab_test_as_integer_attention": {
+    "n": 2593,
+    "acc": 0.9151561897416121,
+    "macro_f1": 0.903432848354431,
+    "per_class_recall": {
+      "bacterial_spot": 0.9901315789473685,
+      "early_blight": 0.8811188811188811,
+      "late_blight": 0.9926470588235294,
+      "leaf_mold": 0.9044117647058824,
+      "septoria_leaf_spot": 0.7865612648221344,
+      "spider_mites": 0.9163179916317992,
+      "target_spot": 0.9502487562189055,
+      "yellow_leaf_curl_virus": 0.9699738903394256,
+      "mosaic_virus": 0.8867924528301887,
+      "healthy": 0.6814159292035398
+    }
+  },
+  "profile": {
+    "params_M": 4.914538,
+    "dense_GMACs": 2.012511104,
+    "GSOPs": 1.628501406411467,
+    "stem_GMACs": 0.029503488,
+    "avg_spikes_per_neuron": 0.7169289812029906,
+    "D": 4,
+    "frac_neurons_firing": 0.4000448590264106,
+    "neurons_M": 9.132224,
+    "layers": [
+      {
+        "layer": "ConvBlock1_1.0.Conv.spike1",
+        "mean_spikes_per_neuron": 1.4178400545704122,
+        "frac_nonzero": 0.6729413596951231,
+        "neurons": 200704.0
+      },
+      {
+        "layer": "ConvBlock1_1.0.Conv.spike2",
+        "mean_spikes_per_neuron": 1.4489891986457668,
+        "frac_nonzero": 0.5556939708943269,
+        "neurons": 401408.0
+      },
+      {
+        "layer": "ConvBlock1_1.0.Conv.spike3",
+        "mean_spikes_per_neuron": 1.497297816373864,
+        "frac_nonzero": 0.6206682263588419,
+        "neurons": 401408.0
+      },
+      {
+        "layer": "ConvBlock1_1.0.spike1",
+        "mean_spikes_per_neuron": 1.748647557472696,
+        "frac_nonzero": 0.7416523641469527,
+        "neurons": 200704.0
+      },
+      {
+        "layer": "ConvBlock1_1.0.spike2",
+        "mean_spikes_per_neuron": 0.6956699488114337,
+        "frac_nonzero": 0.342611753697298,
+        "neurons": 802816.0
+      },
+      {
+        "layer": "downsample1_2.encode_spike",
+        "mean_spikes_per_neuron": 1.583834901147959,
+        "frac_nonzero": 0.6813228918581593,
+        "neurons": 200704.0
+      },
+      {
+        "layer": "ConvBlock1_2.0.Conv.spike1",
+        "mean_spikes_per_neuron": 1.0180606374935228,
+        "frac_nonzero": 0.5902270414391343,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "ConvBlock1_2.0.Conv.spike2",
+        "mean_spikes_per_neuron": 1.1650301135316188,
+        "frac_nonzero": 0.5035004323842575,
+        "neurons": 200704.0
+      },
+      {
+        "layer": "ConvBlock1_2.0.Conv.spike3",
+        "mean_spikes_per_neuron": 0.732283810206822,
+        "frac_nonzero": 0.39679913812754103,
+        "neurons": 200704.0
+      },
+      {
+        "layer": "ConvBlock1_2.0.spike1",
+        "mean_spikes_per_neuron": 1.4289464989487006,
+        "frac_nonzero": 0.7206615992954799,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "ConvBlock1_2.0.spike2",
+        "mean_spikes_per_neuron": 0.30517432154441365,
+        "frac_nonzero": 0.18750950754905232,
+        "neurons": 401408.0
+      },
+      {
+        "layer": "downsample2.encode_spike",
+        "mean_spikes_per_neuron": 1.3778458653664103,
+        "frac_nonzero": 0.6966421244095783,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "ConvBlock2_1.0.Conv.spike1",
+        "mean_spikes_per_neuron": 0.898444973692602,
+        "frac_nonzero": 0.5483768852389589,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "ConvBlock2_1.0.Conv.spike2",
+        "mean_spikes_per_neuron": 1.0162674339450135,
+        "frac_nonzero": 0.4690592707419882,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "ConvBlock2_1.0.Conv.spike3",
+        "mean_spikes_per_neuron": 0.6681469275026906,
+        "frac_nonzero": 0.33270230974469867,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "ConvBlock2_1.0.spike1",
+        "mean_spikes_per_neuron": 1.0338375325105629,
+        "frac_nonzero": 0.576583955725845,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "ConvBlock2_1.0.spike2",
+        "mean_spikes_per_neuron": 0.14214652314478038,
+        "frac_nonzero": 0.09676963650450414,
+        "neurons": 200704.0
+      },
+      {
+        "layer": "ConvBlock2_2.0.Conv.spike1",
+        "mean_spikes_per_neuron": 1.5198479788643973,
+        "frac_nonzero": 0.7486985342843192,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "ConvBlock2_2.0.Conv.spike2",
+        "mean_spikes_per_neuron": 0.7385949893873565,
+        "frac_nonzero": 0.3748768864845743,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "ConvBlock2_2.0.Conv.spike3",
+        "mean_spikes_per_neuron": 0.577951532480668,
+        "frac_nonzero": 0.2911159748933753,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "ConvBlock2_2.0.spike1",
+        "mean_spikes_per_neuron": 1.1278487069266183,
+        "frac_nonzero": 0.5823902052275989,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "ConvBlock2_2.0.spike2",
+        "mean_spikes_per_neuron": 0.12461709392314055,
+        "frac_nonzero": 0.08533712114606584,
+        "neurons": 200704.0
+      },
+      {
+        "layer": "downsample3.encode_spike",
+        "mean_spikes_per_neuron": 1.4007713162169164,
+        "frac_nonzero": 0.6795822454958546,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.0.conv.spike1",
+        "mean_spikes_per_neuron": 0.8741342661332111,
+        "frac_nonzero": 0.5946029663085938,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.0.conv.spike2",
+        "mean_spikes_per_neuron": 1.0579010632573342,
+        "frac_nonzero": 0.4506571711326132,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.0.conv.spike3",
+        "mean_spikes_per_neuron": 0.39653404391541774,
+        "frac_nonzero": 0.22953941189512914,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.0.attn.head_spike",
+        "mean_spikes_per_neuron": 1.0286373839086416,
+        "frac_nonzero": 0.6214939350984534,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.0.attn.q_spike",
+        "mean_spikes_per_neuron": 1.2101840272241708,
+        "frac_nonzero": 0.5330569520288584,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.0.attn.k_spike",
+        "mean_spikes_per_neuron": 0.5590027166872609,
+        "frac_nonzero": 0.28161901357222574,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.0.attn.v_spike",
+        "mean_spikes_per_neuron": 0.625303976876395,
+        "frac_nonzero": 0.2714384662861727,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.0.attn.attn_spike",
+        "mean_spikes_per_neuron": 1.1976480756487164,
+        "frac_nonzero": 0.5317797135333626,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.0.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.2836622277084662,
+        "frac_nonzero": 0.6967315051020408,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.0.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.09606257068867587,
+        "frac_nonzero": 0.06894607543945312,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.1.conv.spike1",
+        "mean_spikes_per_neuron": 1.5062584390445632,
+        "frac_nonzero": 0.7736396322444994,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.1.conv.spike2",
+        "mean_spikes_per_neuron": 0.8750575474330358,
+        "frac_nonzero": 0.40861698072783803,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.1.conv.spike3",
+        "mean_spikes_per_neuron": 0.4664248563805405,
+        "frac_nonzero": 0.24725782433334662,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.1.attn.head_spike",
+        "mean_spikes_per_neuron": 1.403488470583546,
+        "frac_nonzero": 0.7268204046755421,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.1.attn.q_spike",
+        "mean_spikes_per_neuron": 0.7843907881756218,
+        "frac_nonzero": 0.38038822096221303,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.1.attn.k_spike",
+        "mean_spikes_per_neuron": 0.3476342337472098,
+        "frac_nonzero": 0.19364873146524234,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.1.attn.v_spike",
+        "mean_spikes_per_neuron": 0.3266799303950096,
+        "frac_nonzero": 0.17095245828433914,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.1.attn.attn_spike",
+        "mean_spikes_per_neuron": 0.4045316968645368,
+        "frac_nonzero": 0.28679597815688773,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.1.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.4616772710060586,
+        "frac_nonzero": 0.7347607359594228,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.1.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.10654500066017618,
+        "frac_nonzero": 0.07738502658143336,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.2.conv.spike1",
+        "mean_spikes_per_neuron": 1.5639206555424905,
+        "frac_nonzero": 0.7738687320631378,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.2.conv.spike2",
+        "mean_spikes_per_neuron": 0.9125298947704081,
+        "frac_nonzero": 0.4394038297692124,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.2.conv.spike3",
+        "mean_spikes_per_neuron": 0.4791163853236607,
+        "frac_nonzero": 0.24735006215621014,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.2.attn.head_spike",
+        "mean_spikes_per_neuron": 1.4236792116749044,
+        "frac_nonzero": 0.7124272560586735,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.2.attn.q_spike",
+        "mean_spikes_per_neuron": 0.7919537291234854,
+        "frac_nonzero": 0.38866194121691644,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.2.attn.k_spike",
+        "mean_spikes_per_neuron": 0.3758077504683514,
+        "frac_nonzero": 0.2077596547652264,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.2.attn.v_spike",
+        "mean_spikes_per_neuron": 0.25893169325225207,
+        "frac_nonzero": 0.14142997897401147,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.2.attn.attn_spike",
+        "mean_spikes_per_neuron": 0.33282921460210063,
+        "frac_nonzero": 0.26326147585499043,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.2.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.5237799819634885,
+        "frac_nonzero": 0.7354835354551977,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.2.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.12193194798060826,
+        "frac_nonzero": 0.08279931204659598,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.3.conv.spike1",
+        "mean_spikes_per_neuron": 1.560760280064174,
+        "frac_nonzero": 0.7501572900888871,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.3.conv.spike2",
+        "mean_spikes_per_neuron": 0.9296895864058514,
+        "frac_nonzero": 0.4404334554866869,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.3.conv.spike3",
+        "mean_spikes_per_neuron": 0.5391956251494738,
+        "frac_nonzero": 0.2832884496572066,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.3.attn.head_spike",
+        "mean_spikes_per_neuron": 1.501330379563935,
+        "frac_nonzero": 0.7213056914660395,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.3.attn.q_spike",
+        "mean_spikes_per_neuron": 0.6339612999740912,
+        "frac_nonzero": 0.32504565180564415,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.3.attn.k_spike",
+        "mean_spikes_per_neuron": 0.34939790063974807,
+        "frac_nonzero": 0.19737857117944835,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.3.attn.v_spike",
+        "mean_spikes_per_neuron": 0.206403771225287,
+        "frac_nonzero": 0.11395888036611129,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.3.attn.attn_spike",
+        "mean_spikes_per_neuron": 0.22327317996900908,
+        "frac_nonzero": 0.1801800163424745,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.3.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.5856752668108258,
+        "frac_nonzero": 0.720629477987484,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.3.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.1096467855025311,
+        "frac_nonzero": 0.07603536333356585,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.4.conv.spike1",
+        "mean_spikes_per_neuron": 1.5088997665716677,
+        "frac_nonzero": 0.7032353926678093,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.4.conv.spike2",
+        "mean_spikes_per_neuron": 0.9478755561672911,
+        "frac_nonzero": 0.45844299939213967,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.4.conv.spike3",
+        "mean_spikes_per_neuron": 0.44819027647680165,
+        "frac_nonzero": 0.25704921800263075,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.4.attn.head_spike",
+        "mean_spikes_per_neuron": 1.4564300537109376,
+        "frac_nonzero": 0.6799492038026148,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.4.attn.q_spike",
+        "mean_spikes_per_neuron": 0.731981238540338,
+        "frac_nonzero": 0.3613296820192921,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.4.attn.k_spike",
+        "mean_spikes_per_neuron": 0.34289516526825575,
+        "frac_nonzero": 0.1940037318638393,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.4.attn.v_spike",
+        "mean_spikes_per_neuron": 0.23279441522092234,
+        "frac_nonzero": 0.12587578442631936,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.4.attn.attn_spike",
+        "mean_spikes_per_neuron": 0.2769577104218152,
+        "frac_nonzero": 0.19845938390615034,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.4.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.5698425915776466,
+        "frac_nonzero": 0.7021084843849649,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.4.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.08529126692791375,
+        "frac_nonzero": 0.06164414542061942,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.5.conv.spike1",
+        "mean_spikes_per_neuron": 1.5165086084482622,
+        "frac_nonzero": 0.6839149007991868,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.5.conv.spike2",
+        "mean_spikes_per_neuron": 0.8861766425930724,
+        "frac_nonzero": 0.45178137020188935,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.5.conv.spike3",
+        "mean_spikes_per_neuron": 0.4888771057128906,
+        "frac_nonzero": 0.2565805396255182,
+        "neurons": 50176.0
+      },
+      {
+        "layer": "block3.5.attn.head_spike",
+        "mean_spikes_per_neuron": 1.4370692661830358,
+        "frac_nonzero": 0.6573954679528061,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.5.attn.q_spike",
+        "mean_spikes_per_neuron": 0.6599803068199936,
+        "frac_nonzero": 0.3556206528021365,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.5.attn.k_spike",
+        "mean_spikes_per_neuron": 0.3050021424585459,
+        "frac_nonzero": 0.17770002715441646,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.5.attn.v_spike",
+        "mean_spikes_per_neuron": 0.2513744042844189,
+        "frac_nonzero": 0.1409405922403141,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.5.attn.attn_spike",
+        "mean_spikes_per_neuron": 0.30138574716996175,
+        "frac_nonzero": 0.223369177993463,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "block3.5.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.4247698725486289,
+        "frac_nonzero": 0.6500364031110492,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block3.5.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.08839175944425622,
+        "frac_nonzero": 0.06239876260562819,
+        "neurons": 100352.0
+      },
+      {
+        "layer": "downsample4.encode_spike",
+        "mean_spikes_per_neuron": 1.1706109494579082,
+        "frac_nonzero": 0.5610655492665816,
+        "neurons": 25088.0
+      },
+      {
+        "layer": "block4.0.conv.spike1",
+        "mean_spikes_per_neuron": 0.9535569586721407,
+        "frac_nonzero": 0.6467844852784864,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.0.conv.spike2",
+        "mean_spikes_per_neuron": 0.530714935510337,
+        "frac_nonzero": 0.27721330292370855,
+        "neurons": 75264.0
+      },
+      {
+        "layer": "block4.0.conv.spike3",
+        "mean_spikes_per_neuron": 0.4139375232514881,
+        "frac_nonzero": 0.23298124975087692,
+        "neurons": 75264.0
+      },
+      {
+        "layer": "block4.0.attn.head_spike",
+        "mean_spikes_per_neuron": 1.2301861406183567,
+        "frac_nonzero": 0.7272161574590774,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.0.attn.q_spike",
+        "mean_spikes_per_neuron": 0.7480057074099171,
+        "frac_nonzero": 0.3415840616031569,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.0.attn.k_spike",
+        "mean_spikes_per_neuron": 0.249981689453125,
+        "frac_nonzero": 0.13815874372209822,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.0.attn.v_spike",
+        "mean_spikes_per_neuron": 0.1007184294616284,
+        "frac_nonzero": 0.059376333846526894,
+        "neurons": 150528.0
+      },
+      {
+        "layer": "block4.0.attn.attn_spike",
+        "mean_spikes_per_neuron": 0.11969618505361129,
+        "frac_nonzero": 0.10103577594367825,
+        "neurons": 150528.0
+      },
+      {
+        "layer": "block4.0.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.5481083046011372,
+        "frac_nonzero": 0.802403601821588,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.0.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.02426884969075521,
+        "frac_nonzero": 0.018619827997116815,
+        "neurons": 150528.0
+      },
+      {
+        "layer": "block4.1.conv.spike1",
+        "mean_spikes_per_neuron": 1.4654181240367241,
+        "frac_nonzero": 0.7464597533349278,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.1.conv.spike2",
+        "mean_spikes_per_neuron": 0.1945695838149713,
+        "frac_nonzero": 0.11986948649088541,
+        "neurons": 75264.0
+      },
+      {
+        "layer": "block4.1.conv.spike3",
+        "mean_spikes_per_neuron": 0.2073952188297194,
+        "frac_nonzero": 0.08221903690675489,
+        "neurons": 75264.0
+      },
+      {
+        "layer": "block4.1.attn.head_spike",
+        "mean_spikes_per_neuron": 1.324140587631537,
+        "frac_nonzero": 0.6913983818625107,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.1.attn.q_spike",
+        "mean_spikes_per_neuron": 0.7457951967408057,
+        "frac_nonzero": 0.3656122532020621,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.1.attn.k_spike",
+        "mean_spikes_per_neuron": 0.13585553850446427,
+        "frac_nonzero": 0.08625828749468538,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.1.attn.v_spike",
+        "mean_spikes_per_neuron": 0.03339867624295812,
+        "frac_nonzero": 0.02426444332615859,
+        "neurons": 150528.0
+      },
+      {
+        "layer": "block4.1.attn.attn_spike",
+        "mean_spikes_per_neuron": 0.034343501499720985,
+        "frac_nonzero": 0.031791796003069195,
+        "neurons": 150528.0
+      },
+      {
+        "layer": "block4.1.mlp.fc1_spike",
+        "mean_spikes_per_neuron": 1.1839318930697278,
+        "frac_nonzero": 0.6313825127218856,
+        "neurons": 37632.0
+      },
+      {
+        "layer": "block4.1.mlp.fc2_spike",
+        "mean_spikes_per_neuron": 0.012415811966876595,
+        "frac_nonzero": 0.01100633582290338,
+        "neurons": 150528.0
+      },
+      {
+        "layer": "spike",
+        "mean_spikes_per_neuron": 0.5347412109375,
+        "frac_nonzero": 0.3294596354166667,
+        "neurons": 192.0
+      }
+    ],
+    "compute_fp32_mJ": 1.6013673105703203,
+    "compute_int8_mJ": 0.05564084443234401,
+    "mem_int8_mJ": 1.036026684432344
+  },
+  "latency_ms_bs1": 37.34739999890735,
+  "train_hours": 1.0623380188147227
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "LeafSpike: time-aligned attention for spike-driven vision transformers"
+type: software
+authors:
+  - family-names: "Ahmed"
+    given-names: "S. M. Mahbub Uddin"
+    email: "sahmed221068@bscse.uiu.ac.bd"
+    affiliation: "United International University"
+    orcid: "https://orcid.org/0009-0000-5961-745X"
+repository-code: "https://github.com/hrid0yyy/LeafSpike"
+license: MIT
+keywords:
+  - spiking neural networks
+  - spike-driven transformer
+  - neuromorphic computing
+  - energy efficiency
+  - plant disease recognition

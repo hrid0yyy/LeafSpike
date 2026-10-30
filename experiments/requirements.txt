@@ -1,0 +1,11 @@
+# Install PyTorch with CUDA first (setup.ps1 does this):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+timm>=1.0
+numpy
+pandas
+scipy
+scikit-learn
+pillow
+opencv-python-headless
+matplotlib
+gdown
